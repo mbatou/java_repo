@@ -54,5 +54,34 @@ public class TryingMethods {
             System.out.println("Please pass by Emily's office");
         }
     }
+    public static int ReturnSumLessthanOneThousand() {
+        
+        //  This method sums all the numbers from 1 to 1000
+        //  and prints the sum of them
+        
+        int sum = 0;
+        int slot = 1;
+        while (slot < 1000) {
+            sum += slot;
+            slot++;
+        }
+        return sum;
+    }
 
+    public static int ReturnsumEvenNumbers() {
+        /**
+         * This method sums all the even numbers between 12 and 103
+         */
+        int sum = 0;
+        for (int i = 13; i < 103; i++) {
+            if (i % 2 == 0) {
+                sum += i;
+            }
+        }
+        return sum;
+    }
+
+    {
+
+    };
 }
